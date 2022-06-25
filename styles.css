@@ -9,3 +9,19 @@ body {
     padding: 0;
     height: 100%;
 }
+
+h1 {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        left: 30%;
+        top: 30%;
+    }
+}
