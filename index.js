@@ -26,6 +26,8 @@ const draw = () => {
 	context.fillStyle = '#0F0';
 	context.font = fontSize + 'px monospace';
 
+	
+
 	for(let i = 0; i < rainDrops.length; i++)
 	{
 		const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
@@ -38,4 +40,6 @@ const draw = () => {
 	}
 };
 
-setInterval(draw, 30);
+
+setInterval(draw, 45);
+
